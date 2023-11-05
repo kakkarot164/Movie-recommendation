@@ -45,7 +45,7 @@ def set_png_as_page_bg(png_file):
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # specify the relative path of the image in the directory
-set_png_as_page_bg(r"C:\Users\sagar\Desktop\Movie recommedation system\pic 2.png")
+set_png_as_page_bg(r"./deployment/pic 2.png")
 
 # Create an instance of the IMDb class
 ia = IMDb()
